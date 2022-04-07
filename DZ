@@ -1,0 +1,39 @@
+class Dog:
+    def __init__(self):
+        self.width = 60      #cm
+        self.height = 30    #cm
+        self.wool = "long"
+        self.eyes = "black"
+        self.food = "nourishment"    #корм
+        self.health = "good"
+
+    
+
+    def fall_asleep(self):
+        print("засинає")
+
+    def sleep(self):
+        print("спить")
+    
+    def to_wake_up (self):
+        print("просинається")
+        
+    def move(self):
+        print("Іде")
+
+    def eat(self):
+        print("їсть")
+
+    def bathes(self):
+        print("купається")
+
+
+# ЕКЗЕМПЛЯР
+my_dog = Dog()
+
+my_dog.fall_asleep()
+my_dog.sleep()
+my_dog.to_wake_up()
+my_dog.move()
+my_dog.eat()
+my_dog.bathes()
